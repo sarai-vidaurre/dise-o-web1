@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad Multimedia - Fade</title>
+    <style>
+        /* Estilo general de la página */
+        body {
+            background-color: #0a0a0a; /* Fondo oscuro */
+            color: #f5f5f5; /* Texto blanco para contraste */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Título principal */
+        h1 {
+            color: #ff4c4c; /* Rojo intenso, acorde a Fade */
+            text-align: center;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        /* Subtítulos */
+        h2 {
+            color: #ff914d; /* Naranja brillante */
+            border-bottom: 2px solid #ff914d;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #ff4c4c; /* Rojo para habilidades */
+            margin-top: 20px;
+        }
+
+        /* Párrafos */
+        p {
+            max-width: 800px;
+            margin: 10px 0;
+        }
+
+        /* Video, audio y GIFs */
+        video, audio, img {
+            display: block;
+            margin: 15px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 140, 0, 0.5);
+        }
+
+        /* Audio ancho fijo */
+        audio {
+            width: 80%;
+        }
+
+        /* GIFs efecto hover */
+        img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Actividad Multimedia: Fade - Valorant</h1>
+    <p>
+        Esta página web muestra diferentes elementos multimedia relacionados con el personaje <strong>Fade</strong> de Valorant.
+        El objetivo es practicar la inserción de archivos de video, GIF y audio en HTML utilizando rutas relativas.
+    </p>
+
+    <!-- Video -->
+    <h2>Video de lanzamiento del personaje</h2>
+    <video controls width="640" height="360">
+        <source src="VALORANT.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+    </video>
+
+    <!-- Audio debajo del video con aclaración -->
+    <h2>Líneas de voz del personaje en momentos de partida</h2>
+    <audio controls>
+        <source src="Voz de fade.mp3" type="audio/mp3">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <!-- Información general del personaje -->
+    <h2>Detalles del personaje: Fade</h2>
+    <p>
+        <strong>Fade</strong> es una agente de tipo <strong>Iniciador</strong> originaria de Turquía. Su estilo se centra en revelar y controlar la posición de los enemigos mediante habilidades de vigilancia y daño en áreas.
+    </p>
+    <p>
+        Fade es estratégica, ideal para jugadores que disfrutan controlando el mapa y facilitando entradas seguras para su equipo.
+    </p>
+
+    <!-- Habilidades de Fade -->
+    <h2>Habilidades de Fade</h2>
+
+    <h3>Prowler (Q)</h3>
+    <p>Invoca un pequeño espectro que rastrea y daña a los enemigos.</p>
+    <img src="michi.gif" alt="Animación Prowler (Q)" width="300" height="200">
+
+    <h3>Seize (E)</h3>
+    <p>Lanza un orbe que inmoviliza y revela a los enemigos atrapados.</p>
+    <img src="q.gif" alt="Animación Seize (E)" width="300" height="200">
+
+    <h3>Haunt (C)</h3>
+    <p>Marca a los enemigos cercanos, revelando su ubicación.</p>
+    <img src="ojito.gif" alt="Animación Haunt (C)" width="300" height="200">
+
+    <h3>Nightfall (Ultimate)</h3>
+    <p>Desata una ola de sombras que ciega y daña a todos los enemigos en su alcance.</p>
+    <img src="ulti.gif" alt="Animación Nightfall (Ultimate)" width="300" height="200">
+
+</body>
+</html>
